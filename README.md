@@ -2,6 +2,10 @@
 
 A trick of keystore. **Android 12 or above is required**.
 
+## Testing
+
+Tested on Poco F3 > MiUi 14 and OnePlus Nord Ce 3 Lite > Oxygen Os 14
+
 ## Usage
 
 1. Flash this module and reboot.  
