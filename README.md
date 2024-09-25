@@ -6,11 +6,14 @@ A trick of keystore. **Android 12 or above is required**.
 
 Tested on Poco F3 > MiUi 14 and OnePlus Nord Ce 3 Lite > Oxygen Os 14
 
+## ToDo
+
+Add support for more rom [Top Priority]
+
 ## Usage
 
-1. Flash this module and reboot.  
-2. For more than DEVICE integrity, put an unrevoked hardware keybox.xml at `/data/adb/tricky_store/keybox.xml` (Optional).   
-3. Enjoy!  
+1. Flash this module and reboot.
+2. Enjoy!  
 
 ## keybox.xml
 
