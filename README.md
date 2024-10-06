@@ -8,7 +8,8 @@ Tested on Poco F3 > MiUi 14 and OnePlus Nord Ce 3 Lite > Oxygen Os 14
 
 ## ToDo
 
-Add support for more rom [Top Priority]
+~~Add support for more rom [Top Priority]~~ //5ec1cff updated their module thats better than this one//
+I'll update it regularly though 
 
 ## Usage
 
