@@ -2,14 +2,21 @@
 
 A trick of keystore. **Android 12 or above is required**.
 
-## Testing
+## Tested On
 
-Tested on Poco F3 > MiUi 14 and OnePlus Nord Ce 3 Lite > Oxygen Os 14
+OnePlus Nord Ce 3 Lite > Oxygen Os 14
+OnePlus 11 R > Oxygen OS 14
 
 ## ToDo
 
 ~~Add support for more rom [Top Priority]~~ //5ec1cff updated their module thats better than this one//
 I'll update it regularly though 
+
+Add support for the midule T-Support [Top Priority]
+
+## Special Note
+
+There will be no update for other Rom I'll stick with Oxygen OS and Color OS 
 
 ## Usage
 
