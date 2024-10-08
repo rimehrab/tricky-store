@@ -12,7 +12,7 @@ OnePlus 11 R > Oxygen OS 14
 ~~Add support for more rom [Top Priority]~~ //5ec1cff updated their module thats better than this one//
 I'll update it regularly though 
 
-Add support for the midule T-Support [Top Priority]
+Add support for the module T-Support [Top Priority]
 
 ## Special Note
 
