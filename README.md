@@ -9,14 +9,11 @@ OnePlus 11 R > Oxygen OS 14
 
 ## ToDo
 
-~~Add support for more rom [Top Priority]~~ //5ec1cff updated their module thats better than this one//
-I'll update it regularly though 
-
-Add support for the module T-Support [Top Priority]
+nothing dropped project
 
 ## Special Note
 
-There will be no update for other Rom I'll stick with Oxygen OS and Color OS 
+There will be no update 
 
 ## Usage
 
