@@ -1,0 +1,7 @@
+id=tricky_store
+name=Tricky Store
+version=v1.0.4
+versionCode=106
+author=5ec1cff && Mehrab Mahmud
+description=A trick of keystore by 5ec1cff && additional keys and features added by Mehrab Mahmud
+updateJson=https://rimehrab.github.io/tricky-store/update.json

@@ -1,0 +1,37 @@
+name: Create & Release
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Get Module Version
+        id: version
+        run: |
+          echo "version=$(jq -r '.version' update.json)" >> $GITHUB_ENV
+
+      - name: Create Module Zip
+        run: |
+            cd module
+            zip -r ../tricky-store.zip *
+
+      - name: Upload Release
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ env.version }}
+          name: ${{ env.version }}
+          body: |
+            ## Release Notes
+            Please check the [changelog](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/CHANGELOG.md) for details.
+          files: tricky-store.zip
+
+      - name: Cleanup
+        run: |
+          rm tricky-store.zip
